@@ -1,0 +1,21 @@
+die Daten müssen in den htdocs-Ordner von XAMPP
+
+mysql datenbank erstellen:
+	1.
+
+	CREATE DATABASE webseite2;
+
+	2.
+
+	CREATE TABLE `gaestebuch` (
+		`id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
+		`nname` VARCHAR(50) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
+		`vname` VARCHAR(50) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
+		`email` VARCHAR(50) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
+		`COMMENT` VARCHAR(50) NULL DEFAULT NULL COLLATE 'latin1_swedish_ci',
+		PRIMARY KEY (`id`) USING BTREE
+	)
+	COLLATE='latin1_swedish_ci'
+	ENGINE=InnoDB
+	UTO_INCREMENT=22
+	;

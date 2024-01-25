@@ -3,7 +3,7 @@ die Daten müssen in den htdocs-Ordner von XAMPP
 mysql datenbank erstellen:
 	1.
 
-	CREATE DATABASE webseite2;
+	CREATE DATABASE webseite;
 
 	2.
 
